@@ -1,1 +1,2 @@
-print(int(5.99))
+a = ['*', '*']
+print(a.count('*'))
