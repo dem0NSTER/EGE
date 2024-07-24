@@ -1,2 +1,2 @@
-a = ['*', '*']
-print(a.count('*'))
+a = [1, 2]
+print(sum(a))
