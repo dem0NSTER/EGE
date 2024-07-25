@@ -1,2 +1,1 @@
-a = [1, 2]
-print(sum(a))
+print(int('0111', 2))
