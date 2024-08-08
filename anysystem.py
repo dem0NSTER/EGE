@@ -1,13 +1,8 @@
-num = int(input())
-base = 0
-while not (2 <= base <= 9):
-    base = int(input('Основание (2-9): '))
+def anysystem(n: int, base: int) -> str: 
+    s = ''
 
-new = ''
+    while n > 0: 
+        s += str(n % base)
+        n = n // base
+    return s[::-1]
 
-while num > 0:
-    remainder = num % base
-    new += str(remainder) 
-    num = num // base
-
-print(new[::-1])
