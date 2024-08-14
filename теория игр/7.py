@@ -20,8 +20,7 @@ def g(s: int):
         return 'win3'
     
     if ((g(s * 3) == 'win1' or g(s * 3) == 'lose') and \
-        (g(s * 2) == 'win1' or g(s * 2) == 'lose') and \
-        g(s + 1) == 'win3') or\
+        (g(s * 2) == 'win1' or g(s * 2) == 'lose') and g(s + 1) == 'win3') or\
         ((g(s * 3) == 'win1' or g(s * 3) == 'lose') and \
         (g(s * 2) == 'win3' or g(s * 2) == 'lose') and g(s + 1) == 'win3'): 
         return 'win4'
