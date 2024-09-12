@@ -1,6 +1,6 @@
 from functools import lru_cache
 
-@lru_cache
+@lru_cache(None)
 def game(h): 
     if h >= 91: 
         return 'win'
