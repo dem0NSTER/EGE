@@ -6,4 +6,7 @@ def f(n, base):
         n = n // base
     return s[::-1]
 
-print(int('54', 6))
+
+a = 6 * 144**26 + 11 * 12**75 - 48
+b = f(a, 12)
+print(b.count(11))
