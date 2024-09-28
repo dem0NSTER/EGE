@@ -1,8 +1,10 @@
 def anysystem(n: int, base: int) -> str: 
-    s = ''
+    s = []
 
     while n > 0: 
-        s += str(n % base)
+        s.append(n % base)
         n = n // base
     return s[::-1]
 
+
+print(anysystem(2, 2))
