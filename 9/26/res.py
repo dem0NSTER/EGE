@@ -11,14 +11,5 @@ for i in s1:
 
 
 
-for row in table: 
-    already = []
-    for i in permutations(row): 
-        first = sorted(row[:2])
-        second = sorted(row[2:])
-        if first + second not in already: 
-            if second + first not in already: 
-                already.append(first + second)
-                print(first, second)
 
         

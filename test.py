@@ -1,19 +1,7 @@
-# from itertools import combinations
+from math import ceil
 
-# a = [1, 2, 3, 4, 5]
-# for first in combinations(a, 2): 
-#     for second in combinations(a, 2): 
-#         if any(first[i] in second for i in range(len(first))):
-#             continue
-#         print(first, second)
-
-from itertools import permutations
-
-a = [1, 2, 3, 4]
-
-for i in permutations(a): 
-    first = sorted(i[:2])
-    second = sorted(i[2:])
-    print(first, second)
-
-
+for i in range(1, 100): 
+    num = ceil((261 * i) / 8)
+    if num * 252500 > 31 * (2 ** 20): 
+        print(2 ** i)
+        break
