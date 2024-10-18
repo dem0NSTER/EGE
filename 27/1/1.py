@@ -7,7 +7,7 @@
 """
 
 summ = 0  # Сумма
-with open('27-B_demo.txt') as file:  # Читаю данные из файла
+with open('27/1/27-B_demo.txt') as file:  # Читаю данные из файла
     data = file.read().split('\n')
 
 nums = []  # для int значений
