@@ -1,3 +1,4 @@
-num = '224'
-nums = [i for i in num if int(i) % 2 == 0]
-print(len(num) == len(nums))
+num = 100
+print(str(num) + '0')
+print(str(num) + '1')
+print(bin(int(str(num), 2) + 1)[2:])

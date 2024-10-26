@@ -18,4 +18,3 @@ def g(n: int) -> int:
     
 num = g(36)
 print(sum([int(i) for i in str(num)]))
-
