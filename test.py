@@ -1,4 +1,7 @@
-num = 100
-print(str(num) + '0')
-print(str(num) + '1')
-print(bin(int(str(num), 2) + 1)[2:])
+import os
+
+
+for i in range(21, 41): 
+    os.mkdir(f'17/{i}')
+    open(f'17/{i}/res.py', 'w')
+
