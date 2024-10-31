@@ -24,3 +24,4 @@ def game(h: int):
 for s in range(1, 2163): 
     if game(s) == 'win4': 
         print(s)
+        
