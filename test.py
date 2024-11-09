@@ -1,8 +1,6 @@
-from itertools import product
+for i in range(10**6): 
+    for j in range(10**6):
+        1 + 2
 
-c = 0
-for i in product('abcdef', repeat=3): 
-    print(i)
-    c += 1
+print('*')
 
-print(c)
