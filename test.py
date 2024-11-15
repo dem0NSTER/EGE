@@ -1,3 +1,2 @@
-a = [1, 2, 3, 4, 54]
-b = [i for i in a if i % 2 == 0]
-print(b)
+a = [i for i in range(106732567, 152673836 + 1) if int(i ** 0.5) == i ** 0.5]
+print(a)
