@@ -14,4 +14,3 @@ for n in a:
     d = div(n)
     if len(d) == 3: 
         print(n, max(d))
-
