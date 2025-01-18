@@ -39,10 +39,10 @@ while data:
         for p in n: 
             data.remove(p)
 
-print(len(clusters))
+
 assert len(clusters) == count_clusters
 assert sum([len(cluster) for cluster in clusters])
 
+
 centroids = [get_centroid(cluster=cluster) for cluster in clusters]
 print(int(10_000 * (sum([centroid[0] for centroid in centroids]) / len(clusters))), int(10_000 * (sum([centroid[1] for centroid in centroids]) / len(clusters))))
-
