@@ -51,4 +51,5 @@ centroids = [get_centroid(cluster) for cluster in clusters]
 px = sum([x for x, y in centroids]) / count_of_clusters
 py = sum([y for x, y in centroids]) / count_of_clusters
 
+
 print(int(100_000 * px), int(100_000 * py))
